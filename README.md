@@ -2,34 +2,41 @@
 
 ## 🧠 Summary
 
-This is a project idea for building a Mac-native, AI-enhanced alternative to ChemSketch (Windows-only). It's meant to solve the real issue of limited access for Mac users in chemistry education and research.
+This is a project idea for building a Mac-native alternative to ChemSketch (currently Windows-only). It aims to solve the real issue of limited access for Mac users in chemistry education and research, while improving usability and modernizing the interface.
 
 ---
 
 ## 🎯 Goals
 
-- Make a fast, modern, native drawing tool for molecular structures
-- Enable basic 2D editing (atoms, bonds, angles, etc.)
+- Build a fast, modern molecular structure editor for macOS
+- Enable intuitive 2D editing of atoms, bonds, and angles
 - Export structures in common formats like SMILES and PNG
-- Package the tool as a desktop app using Tauri (Rust+JS) or SwiftUI (Mac-native)
+- Package the tool as a native macOS desktop app using Tauri (Rust + JS) or SwiftUI
 
 ---
 
 ## 🔧 MVP Feature List
 
 - [ ] Click-to-place atoms (C, H, O, N, etc.)
-- [ ] Draw single, double, triple bonds
-- [ ] Bond angle snapping (e.g. 120°, 109.5°)
+- [ ] Draw single, double, and triple bonds
+- [ ] Bond angle snapping (e.g., 120°, 109.5°)
+- [ ] Represent molecule as an internal data model (atoms, bonds, coordinates)
 - [ ] Export structure to SMILES using RDKit or Open Babel
 - [ ] Save/load molecules (local JSON or IndexedDB)
-- [ ] Highlight structural errors (e.g. invalid valency)
+- [ ] Validate bonding and valency rules (e.g., carbon can't exceed 4 bonds)
 
 ---
 
-## 🧠 Future AI Add-ons (Stretch Goals)
+## 🔮 Planned Enhancements
 
-- [ ] Generate IUPAC names from drawn structure (Transformer model fine-tuned on PubChem)
-- [ ] Explain incorrect naming attempts with rule-based + NLP system
-- [ ] Predict basic properties (e.g. molecular weight, logP)
+- [ ] **Generate IUPAC names** from SMILES using RDKit or other cheminformatics tools
+- [ ] **Provide feedback on incorrect names** with rule-based comparison (e.g., incorrect locant, wrong root chain)
+- [ ] **Predict basic properties** like molecular weight, logP, H-bond donors/acceptors using RDKit
+- [ ] **Visualize 3D structures** from SMILES using 3Dmol.js
+- [ ] Optional AI extensions if useful or educational (e.g., structure → name generation via ML)
 
 ---
+
+## 🛑 Status
+
+Development paused. Idea is saved for future reference. May revisit after completing current AI and full-stack studies.
