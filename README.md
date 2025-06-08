@@ -1,5 +1,8 @@
 # chem-idea
 
+## Status
+Archived — Idea was evaluated and shelved due to lack of distinct demand. See below for original concept and learning goals.
+
 ## 🧠 Summary
 
 This is a project idea for building a Mac-native alternative to ChemSketch (currently Windows-only). It aims to solve the real issue of limited access for Mac users in chemistry education and research, while improving usability and modernizing the interface.
